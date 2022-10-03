@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <form method="post" autocomplete="off">
+    <fieldset>
+        <legend>hey there</legend>
+        <label for="user" >Username:</label>
+        <input type="text" name="user" required id="user"> <br>
+        <label for="">Password</label>
+        <input type="password" name="pass" required minlength="8"   pattern=".{8,}" title="Eight or more characters"autofocus> <br>
+        <label>Age</label>
+        <input type="number" name="age" > <br>
+        <label >EmailAdress:</label>
+        <input type="Email" name="email" required minlength="5"> <br>
+        <label for="">Gender</label>
+        <input type="radio" name="gender" value="male">
+        <label >Male</label>
+        <input type="radio" name="gender" value="female">
+        <label >Female</label> <br>
+        <label for="">YourSkills</label>
+        <input type="checkbox" name="html" >
+        <label>html</label>
+        <input type="checkbox" name="css" >
+        <label>Css</label>
+        <input type="checkbox" name="java">
+        <label for="">javascript</label>
+        <input type="checkbox" name="bootstrap">
+        <label for="bootstrap"></label> <br>
+        
+        <select>
+            <option selected disabled>your degree</option>
+            <option value="">Student</option>
+            <option value="">Graduate</option>
+            <option value="">Working</option> <br>
+         </select> <br>
+            <label for="">Upload here</label>
+            <input type="file"> <br>
+            <textarea name="" cols="30" rows="10" placeholder="Tell me more about yourself"></textarea> <br>
+
+            <label for="sections">Choose from options</label>
+            <input list="sections" name="sections" id="sections">
+            <datalist id="sections">
+                <option value="html">
+                <option value="css">
+                <option value="javascript">
+                <option value="bootstrap">
+             
+
+
+
+            </datalist>
+            <button type="submit">Click here</button>
+
+
+
+
+      
+     
+        
+        
+
+    
+
+
+
+
+</fieldset>
+
+
+
+   </form>
+</body>
+</html>
