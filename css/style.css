@@ -1,5 +1,6 @@
 *{
     background-color: rgb(93, 187, 187);
+    box-sizing: border-box;
 }
 h1{
     color: white;
@@ -59,11 +60,11 @@ form{
 }
 .aside{
     display: inline-block;
-    margin-left:230px;
     width: 50%;
     color: white;
     vertical-align: top;
-    margin-top: 63px;
+    margin-top: 150px;
+    margin-left: 150px;
 }
 .you{
     font-size: 30px;
