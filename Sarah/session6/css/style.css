@@ -1,0 +1,40 @@
+/* table {
+    border: 2px solid #eee;
+    padding: 20px;
+    margin: 20px;}
+    
+
+.color{
+    color: green;
+}
+tr:nth-child(odd):hover{
+color: red;
+}
+tr:nth-child(even) {
+    color: blue;
+}
+
+thead {
+    background-color: rgb(12, 165, 170);
+    color: white;
+    padding: 0;
+}
+thead tr th{
+    color: white;
+}
+td {
+    padding: 20px;
+}
+th {
+    padding: 5px;
+} */
+
+
+
+.custom {
+    background-color: azure;
+    padding: 50px;
+    width:50%;
+    margin: 50px;
+
+}
