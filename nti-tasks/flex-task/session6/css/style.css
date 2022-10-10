@@ -17,7 +17,7 @@ ul a {
 
 /* global style */
 .container {
-    width: 80%;
+    width: 65%;
     margin: auto;
 }
 .d-flex{
@@ -60,10 +60,13 @@ ul a {
     color: white;
 }
 .custom-span {
-    padding-right: 20px;
+  
     border-radius: 50%;
     border: 2px solid grey;
-    
+    width: 50px;
+    height: 50px;
+    line-height: 2;
+    text-align: center;
     font-size: 30px;
     color: white;
    
@@ -75,7 +78,8 @@ ul a {
     color: #a7a7a7a7;
 }
 .custom-ul {
-    width: 60%;
+    width: 100%;
+   margin-top: 8%;
 }
 
 .special a{
@@ -101,7 +105,7 @@ ul a {
     
 }
 .news {
-    width: 30%;
+    width: 48%;
     box-shadow: 0px 0px 8px 1px #888888;
 }
 
@@ -121,4 +125,132 @@ ul a {
 .special-div {
     text-align: center;
     padding: 2%;
+}
+
+.d-flex img {
+    height: 97px;
+    width: 97px;
+   
+}
+.first-sec {
+    display: flex;
+}
+.special-sec p{
+    padding-top: 4%;
+}
+
+.special-sec {
+   width: 75%;
+   
+}
+.flex {
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+}
+.custom {
+  box-shadow: 0px 0px 5px #d3d3d3;
+    margin: 5px 0;
+}
+.parent {
+    display: flex;
+}
+
+
+
+.left-aside{
+    width: 70%;
+}
+.right-aside{
+    width: 25%;
+}
+
+.special-d-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.special-hr {
+    margin-bottom: 3%;
+}
+
+.left {
+    border: 3px solid #a7a7a7;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    line-height: 2;
+    font-size: 30px;
+    text-align: center;
+    color: #a7a7a7;
+    
+}
+.right {
+    border: 3px solid #a7a7a7;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    line-height: 2;
+    font-size: 30px;
+    text-align: center;
+    margin: 0 1%;
+    color: #a7a7a7;
+}
+.special-icons {
+    margin-top: 5%;
+}
+.special-icons button {
+    border: none;
+}
+.custom-ul-2 a{
+   
+        list-style: none;
+        color: #a7a7a7a7;
+}
+
+.custom-ul-2 {
+    width: 100%;
+   margin-top: 8%;
+}
+.custom-ul-2 .d-flex {
+    width: 100%;
+}
+
+.special2 a {font-size: 20px;
+    font-weight: bold;
+    padding-right: 10px;
+    color: black;
+
+}
+.custom2 {
+   
+}
+.special-flex img {
+  width: 100%;
+  height: 200px;
+}
+
+.d-flex-special {
+    display: flex;
+}
+.third img {
+    width: 97px;
+    height: 97px;
+}
+.text {
+    width: 70%;
+}
+.third {
+    width:48%;
+    margin: 1% 0;
+    box-shadow: 0px 0px 8px #e7e7e7;
+}
+.custom-padding {
+    padding: 1% 0;
+    box-shadow: 0px 0px 8px #e7e7e7;
+}
+
+.special-flex {
+    width: 48%;
+    box-shadow: 0px 0px 8px #888888;
 }
