@@ -3,6 +3,13 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+   
 }
 ul{
     list-style: none;
@@ -18,7 +25,7 @@ ul a {
 
 /* global style */
 .container {
-    width: 75%;
+    width: 60%;
     margin: auto;
 }
 .d-flex{
@@ -27,6 +34,7 @@ ul a {
 .justify-content-between{
     justify-content: space-between;
     align-items: center;
+    margin: 5% 0;
 }
 
 /* custom style */
@@ -127,6 +135,13 @@ ul a {
     text-align: center;
     padding: 2%;
 }
+.special-div h3 {
+    font-weight: bold;
+    line-height: 1.5;
+}
+.special-div p {
+    font-size: 12px;
+}
 
 .d-flex img {
     height: 97px;
@@ -137,12 +152,19 @@ ul a {
     display: flex;
 }
 .special-sec p{
+    font-size: 12px;
     padding-top: 4%;
 }
 
 .special-sec {
    width: 75%;
+margin: 0 2%;
+padding: 3%;
    
+}
+.special-sec h3 {
+   font-size: 13px;
+   font-weight: bold;
 }
 .flex {
     display: flex;
@@ -151,7 +173,7 @@ ul a {
 }
 .custom {
   box-shadow: 0px 0px 5px #d3d3d3;
-    margin: 5px 0;
+    margin: 1%;
 }
 .parent {
     display: flex;
@@ -164,6 +186,7 @@ ul a {
 }
 .right-aside{
     width: 25%;
+    margin-top: 6%;
 }
 
 .special-d-flex {
@@ -239,8 +262,11 @@ ul a {
     width: 97px;
     height: 97px;
 }
-.text {
-    width: 70%;
+.text p {
+    font-size: 13px;
+   margin: 5%;
+   
+    
 }
 .third {
     width:48%;
@@ -256,18 +282,28 @@ ul a {
     width: 48%;
     box-shadow: 0px 0px 8px #888888;
 }
+.special-section h1 {
+    margin: 0 5%;
+    font-weight: bold;
+}
 .special-section hr {
    margin: 6% 0;
 }
 .special-section p {
     padding: 6% 0;
     color: #a7a7a7;
+    margin: 0 5%;
+}
+.special-section h3 {
+    margin: 0 5%;
+    font-weight: bold;
 }
 .custom-hr {
     margin-top: 6% ;
 }
 .special-h4 {
-    margin: 5% 0;
+    margin: 5%;
+    font-weight: bold;
 }
 .icons-sec {
 font-size: 20px;
@@ -278,18 +314,26 @@ color: #a7a7a7;
 
 }
 .icons {
-    padding: 0 4%;
-  
+   width: 35px;
+   height: 35px;
+   border: 1px solid #e7e7e7;
+   border-radius: 50%;
+  text-align: center;
+  padding: 2%;
+  margin: 1%;
+  color: #a7a7a7;
 }
 
 .special-flex2 img {
     width: 100%;
     height: 150px;
     margin-top: 10% ;
+    
 }
 .lastp {
     font-weight: bold;
     margin-top: 6%;
+    margin-left: 6%;
 }
 
 .right-aside {
@@ -299,16 +343,107 @@ color: #a7a7a7;
    
 
 }
-
-.bg-sec {
-    background-image: url(../Image-of-World-Tamplate/Image/xb4.jpg.pagespeed.ic.LdOhOhXA0d.webp);
-   background-size: 100% 100%;
-   height: 200px;
-  
+.special-flex2 {
+    padding-left: 5%;
+}
+.fourth img {
+    width: 60px;
+    height: 70px;
+    margin-right: 4%;
+}
+.special-div {
+    padding: 5%;
 }
 
-.overlay2 {
-    background-color: rgba(0, 0, 0, 0.473);
-    height: 100%;
-    padding-top: ;
+.fourth {
+    margin: 5%;
+}
+
+.bg1 img {
+width: 100%;
+height: 200px;
+}
+
+.bg1 {
+    position: relative;
+}
+
+.postion button {
+    position: absolute;
+    top: 6%;
+    right: 50%;
+    padding: 0 3%;
+}
+
+.postion p {
+    position: absolute;
+    width: 70%;
+    top: 30%;
+    left:9%;
+    font-weight: bold;
+    color: white;
+    font-size: 18px;
+
+}
+.postion span {
+    position: absolute;
+    top: 80%;
+    color: #a7a7a7;
+    left: 9%;
+    font-size: 15px;
+
+}
+
+.bg1 :hover {
+    color: #212529;
+}
+.v-special {
+    width: 90%;
+    margin: 2%;
+    padding: 1%;
+   
+}
+
+.aside-1 {
+    width: 75%;
+}
+.aside-1 h2 {
+    font-weight: bold;
+}
+
+.v-special h3 {
+    font-weight: bold;
+    padding-bottom: 1%;
+    font-size: 18px;
+}
+.v-special p {
+    font-size: 15px;
+    color: #a7a7a7;
+}
+.v-img {
+    width: 25% !important;
+    height: 25% !important ;
+   
+   
+}
+
+.last-sec {
+    margin-top: 5%;
+}
+
+.d-flex-2 {
+    display: flex;
+    box-shadow: 0px 0px 10px 0px #eee;
+    width: 90%;
+    margin: 1% 0;
+}
+.d-hr {
+    margin-top: 1%;
+    margin-bottom: 5%;
+    color: #eee;
+}
+.v-special span {
+    color: #505050;
+    font-size: 12px;
+
 }
