@@ -11,9 +11,15 @@
     text-align: left;
    
 }
+
+.overlay h1 {
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+}
 ul{
     list-style: none;
-    width: 30%;
+    width: 40%;
     justify-content: space-between;
 }
 ul a {
@@ -66,18 +72,22 @@ ul a {
 }
 .sec1 p {
   
-    color: white;
+    color: grey;
+    font-weight: bold;
+    margin: 0 5%;
+    margin-top: 1%;
 }
 .custom-span {
   
     border-radius: 50%;
-    border: 2px solid grey;
-    width: 50px;
-    height: 50px;
+    border: 5px solid grey;
+    width: 98px;
+    height: 70px;
     line-height: 2;
     text-align: center;
     font-size: 30px;
-    color: white;
+    color: grey;
+    font-weight: bold;
    
    
 }
@@ -201,8 +211,8 @@ padding: 3%;
 .left {
     border: 3px solid #a7a7a7;
     border-radius: 50%;
-    width: 30px;
-    height: 30px;
+    width: 60px;
+    height: 60px;
     line-height: 2;
     font-size: 30px;
     text-align: center;
@@ -212,8 +222,8 @@ padding: 3%;
 .right {
     border: 3px solid #a7a7a7;
     border-radius: 50%;
-    width: 30px;
-    height: 30px;
+    width: 60px;
+    height: 60px;
     line-height: 2;
     font-size: 30px;
     text-align: center;
@@ -314,8 +324,9 @@ color: #a7a7a7;
 
 }
 .icons {
-   width: 35px;
-   height: 35px;
+   width: 50px;
+   height: 50px;
+   line-height: 2;
    border: 1px solid #e7e7e7;
    border-radius: 50%;
   text-align: center;
