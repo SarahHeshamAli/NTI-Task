@@ -92,6 +92,9 @@ ul a {
   
     border-radius: 50%;
     border: 5px solid grey;
+    border-top-color: blue;
+    border-right-color: blue;
+    border-bottom-color: blue;
     width: 98px;
     height: 70px;
     line-height: 2;
@@ -433,7 +436,7 @@ height: 160px;
 }
 
 .aside-1 {
-    width: 75%;
+    width: 70%;
 }
 .aside-1 h2 {
     font-weight: bold;
@@ -455,6 +458,11 @@ height: 160px;
    
 }
 
+.aside-2 h2 {
+    
+    font-weight: bold;
+}
+
 .last-sec {
     margin-top: 5%;
 }
@@ -466,10 +474,11 @@ height: 160px;
     margin: 1% 0;
 }
 .d-hr {
-    margin-top: 1%;
-    margin-bottom: 5%;
-    color: #eee;
+    margin-top: 15px;
+    margin-bottom: 30px;
 }
+    
+
 .v-special span {
     color: #505050;
     font-size: 12px;
@@ -483,13 +492,13 @@ height: 160px;
 }
 
 .aside-2 {
-    width: 35%;
+    width: 25%;
 }
 
 .font {
-    width: 80%;
-    margin-left: 9%;
-    margin-top: 2%;
+    width: 100%;
+    padding: 5% 8%;
+    
 }
 
 .spec h3 {
@@ -509,8 +518,8 @@ height: 160px;
 
 .spec button {
     position: absolute;
-    top: 7%;
-    left: 8%;
+    top: 3%;
+    left: 15%;
     width: 20%;
     text-align: center;
     transition: 0.5s;
@@ -523,12 +532,92 @@ height: 160px;
 
 .spec .play {
     position: absolute;
-    left: 50%;
-    top: 25%;
+    left: 45%;
+    top: 20%;
     font-size: 40px;
     color: white;
 }
 
 .spec {
     position: relative;
+    box-shadow:0px 0px 8px 1px #888888 ;
+}
+
+.spec img {
+    width: 100%;
+}
+
+.load {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-left: 50%;
+    margin-top: 5%;
+ 
+}
+
+.load button {
+    padding: 0 25px;
+    width: auto;
+    height: 35px;
+    border: 1px solid;
+    border-color: #d7d7d7;
+    font-size: 14px;
+    border-radius: 50px;
+    line-height: 32px;
+}
+
+.bg-light {
+    background-color: black;
+    width: 100%;
+    height: 200px;
+}
+
+.footer h2 {
+    font-weight: bold;
+    color: white;
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+.footer p {
+    color: white;
+    font-size: 15px;
+}
+
+.footer {
+    width: 25%;
+}
+
+.sub h3 {
+    font-weight: bold;
+    color: white;
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+
+.sub {
+    width: 25%;
+}
+.sub input {
+    width: 100%;
+    height: 35px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid;
+    border-color: #959595;
+    color: #959595;
+    font-size: 14px;
+    padding: 0 5px;
+}
+
+.d-flex3 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+}
+
+.d-flex ul li {
+    margin: 2% 5%;
 }
