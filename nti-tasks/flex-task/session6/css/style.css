@@ -37,10 +37,15 @@ ul a {
 .d-flex{
     display: flex;
 }
+
+.d-flex2 {
+    display: flex;
+    flex-wrap: wrap;
+}
 .justify-content-between{
     justify-content: space-between;
     align-items: center;
-    margin: 5% 0;
+    margin: 2% 0;
 }
 
 /* custom style */
@@ -54,6 +59,7 @@ ul a {
 
 .glasses {
     font-size: 30px;
+   padding: 0 3%;
 }
 
 .overlay {
@@ -69,6 +75,11 @@ ul a {
     justify-content: space-between;
     width: 35%;
     
+}
+
+
+.d-flex ul li {
+    padding-left: 3%;
 }
 .sec1 p {
   
@@ -324,14 +335,15 @@ color: #a7a7a7;
 
 }
 .icons {
-   width: 50px;
-   height: 50px;
+   width: 32px;
+   height: 30px;
    line-height: 2;
    border: 1px solid #e7e7e7;
    border-radius: 50%;
   text-align: center;
-  padding: 2%;
-  margin: 1%;
+
+ 
+  
   color: #a7a7a7;
 }
 
@@ -372,11 +384,12 @@ color: #a7a7a7;
 
 .bg1 img {
 width: 100%;
-height: 200px;
+height: 160px;
 }
 
 .bg1 {
     position: relative;
+
 }
 
 .postion button {
@@ -386,9 +399,15 @@ height: 200px;
     padding: 0 3%;
 }
 
+.postion button:hover {
+    background-color: blue;
+    color: white;
+    transition: 0.5s;
+}
+
 .postion p {
     position: absolute;
-    width: 70%;
+    width: 100%;
     top: 30%;
     left:9%;
     font-weight: bold;
@@ -405,9 +424,7 @@ height: 200px;
 
 }
 
-.bg1 :hover {
-    color: #212529;
-}
+
 .v-special {
     width: 90%;
     margin: 2%;
@@ -457,4 +474,61 @@ height: 200px;
     color: #505050;
     font-size: 12px;
 
+}
+
+.justify-content-between2 {
+    display: flex;
+ 
+    flex-wrap: nowrap;
+}
+
+.aside-2 {
+    width: 35%;
+}
+
+.font {
+    width: 80%;
+    margin-left: 9%;
+    margin-top: 2%;
+}
+
+.spec h3 {
+    font-weight: bold;
+}
+
+.spec p {
+    font-size: 14px;
+    margin-bottom: 3%;
+}
+
+.spec span {
+
+    font-size: 12px;
+    margin-top: 4%;
+}
+
+.spec button {
+    position: absolute;
+    top: 7%;
+    left: 8%;
+    width: 20%;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.spec button:hover {
+    background-color: blue;
+    color: white;
+}
+
+.spec .play {
+    position: absolute;
+    left: 50%;
+    top: 25%;
+    font-size: 40px;
+    color: white;
+}
+
+.spec {
+    position: relative;
 }
