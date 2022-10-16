@@ -122,3 +122,13 @@
     margin: 0;
    
 }
+
+.stars {
+    color: orange;
+}
+
+.middle ul a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
