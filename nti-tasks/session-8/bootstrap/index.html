@@ -32,19 +32,19 @@
 
 
       <!-- start header -->
-      <div class="middle text-secondary mt-3">
+      <div class="middle text-secondary ">
         <div class="container"> 
-          <ul>
-            <li class="d-inline-block ps-3"><a href="">Shoes</a></li>
-          <li class="d-inline-block ps-3"><a href="">Slippers</a></li>
-          <li class="d-inline-block ps-3"><a href="">Kids</a></li>
+          <ul class="text-center ">
+            <li class="d-inline-block ps-3"><a href="" class="fw-bold text-dark text-decoration-none">Shoes</a></li>
+          <li class="d-inline-block ps-3"><a href="" class="fw-bold text-dark text-decoration-none"> Slippers</a></li>
+          <li class="d-inline-block ps-3"><a href="" class="fw-bold text-dark text-decoration-none">Kids</a></li>
           <i class="fa-sharp fa-solid fa-caret-down"></i>
-          <li class="d-inline-block ps-3"><a href="">Sabot</a></li>
+          <li class="d-inline-block ps-3"><a href="" class="fw-bold text-dark text-decoration-none">Sabot</a></li>
           <i class="fa-sharp fa-solid fa-caret-down"></i>
           <img src="images/shoe-icon-9.png " alt="" class="middle-img ps-3 ">
-          <li class="d-inline-block ps-3"><a href="">New arrival</a></li>
+          <li class="d-inline-block ps-3"><a href="" class="fw-bold text-dark text-decoration-none">New arrival</a></li>
           <i class="fa-sharp fa-solid fa-caret-down"></i>
-          <li class="d-inline-block ps-3"><a href="">More About us</a></li>
+          <li class="d-inline-block ps-3"><a href="" class="fw-bold text-dark text-decoration-none">More About us</a></li>
           <i class="fa-sharp fa-solid fa-caret-down"></i>
           </ul>
         </div>
@@ -53,38 +53,59 @@
 
       <div class="Section">
         <div class="container">
-          <div class="d-flex">
-            <aside class="left-aside ">
-              <div class="leftaside  border border-2  rounded-top pt-2 ">
-               <i class="fa-sharp fa-solid fa-person-half-dress fs-3 ms-3 "></i>
-               <p class="d-inline-block fs-4 ms-1">Men's</p>
-               <i class="fa-solid fa-minus"></i>
+          <div class="row">
+            <aside class="left-aside mt-3 col-3 ">
+              
+              <!-- start accordion -->
+              <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                     Men's
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                     
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      Accordion Item #2
+                    </button>
+                  </h2>
+                  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      Accordion Item #3
+                    </button>
+                  </h2>
+                  <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    </div>
+                  </div>
+                </div>
               </div>
-   
-           <div class="row">
-             <div class="col-12">
-               <i class="fa-solid fa-greater-than"></i>
-               <button class="fw-bold border-0">Men's Accssesories</button>
-             </div>
-             <div class="col-12">
-               <i class="fa-solid fa-greater-than"></i>
-               <button class="fw-bold border-0">Men's Accssesories</button>
-             </div>
-             <div class="col-12">
-              <i class="fa-solid fa-greater-than"></i>
-               <button class="fw-bold border-0">Men's Accssesories</button>
-             </div>
-             <div class="col-12">
-               <i class="fa-solid fa-greater-than"></i>
-               <button class="fw-bold border-0 ">Men's Accssesories</button>
-             </div>
-           </div>
-   
-           <div class="leftaside border border-2  rounded-top mt-4 pt-2">
-             <i class="fa-solid fa-person-dress fs-3 ms-3"></i>
-             <p class="d-inline-block fs-4 ms-1">Women</p>
-             <i class="fa-solid fa-plus"></i>
-            </div>
+
+              
+                
+
+
+
+                  
+
+           
+            
+            
    
             <div class=" border border-2 mt-3">
              <p class="fs-3 ms-2">Price</p>
@@ -99,19 +120,19 @@
    
             <div class=" color-box  border border-2 mt-2 p-2">
              <p class="fs-4 ms-1">Color</p>
-               <button class="circle  border border-2  rounded-circle d-inline-block me-1">
+               <button class="circle circle-dimensions border border-2  rounded-circle d-inline-block me-1">
                  .
                </button>
-               <button class="circle1  border border-2  rounded-circle d-inline-block me-1">
+               <button class="circle1 circle-dimensions border border-2  rounded-circle d-inline-block me-1">
                  .
                </button>
-               <button class="circle2  border border-2  rounded-circle d-inline-block me-1">
+               <button class="circle2 circle-dimensions border border-2  rounded-circle d-inline-block me-1">
                  .
                </button>
-               <button class="circle3  border border-2  rounded-circle d-inline-block me-1">
+               <button class="circle3 circle-dimensions border border-2  rounded-circle d-inline-block me-1">
                  .
                </button>
-               <button class="circle4  border border-2  rounded-circle d-inline-block me-1">
+               <button class="circle4 circle-dimensions border border-2  rounded-circle d-inline-block me-1">
                  .
                </button>
    
@@ -136,7 +157,7 @@
              </aside>
    
    
-             <aside class="right-aside ">
+             <aside class="right-aside mt-4 ms-3 ">
               <form action="" class="mb-3">
                 <label for="">
                   Sort By
@@ -149,35 +170,43 @@
                   </optgroup>
                 </select>
               </form>
-               <div class="row ">
-                 <div class="border bg-light  col-lg-4 me-5 mp-2 col-sm-12">
-                   <img src="images/3c412d5ece1aa73c6a2be5be748e0cfa-basketball-shoe-icon.png" alt="" class="w-50 ms-2">
-                   <div class="ms-5">
+               <div class="row ms-3 gx-3 gy-3">
+                 <div class="  col-lg-4  mp-2 col-sm-12">
+                    <div class="bg-light shadow-sm">
+                      <img src="images/3c412d5ece1aa73c6a2be5be748e0cfa-basketball-shoe-icon.png" alt="" class="w-50 d-block m-auto">
+                   <div class="text-center">
                      <p class="classic">Classic shoes</p>
-                   <p class="ms-3">Classic</p>
+                   <p class="">Classic</p>
                    </div>
-                   <span class="orange">300EGP</span>
-                   <span class="text-decoration-line-through">500EGP</span>
-                   <span class="green">30% Off</span>
-                   <div class="stars ms-5 mt-2">
+                  <div class="text-center">
+                    <span class="orange">300EGP</span>
+                    <span class="text-decoration-line-through">500EGP</span>
+                    <span class="green">30% Off</span>
+                  </div>
+                   <div class="stars text-center">
                     <i class="fa-sharp fa-solid fa-star"></i>
                     <i class="fa-sharp fa-solid fa-star"></i>
                     <i class="fa-sharp fa-solid fa-star"></i>
                     <i class="fa-sharp fa-solid fa-star"></i>
                     
                   </div>
+                    </div>
+                   
                  
                  </div>
-                 <div class="border bg-light me-5 col-lg-4 col-sm-12">
-                   <img src="images/3c412d5ece1aa73c6a2be5be748e0cfa-basketball-shoe-icon.png" alt="" class="w-50 ms-2">
-                   <div class="ms-5">
+                 <div class=" col-lg-4 col-sm-12">
+                  <div class="bg-light shadow-sm">
+                     <img src="images/3c412d5ece1aa73c6a2be5be748e0cfa-basketball-shoe-icon.png" alt="" class="w-50 d-block m-auto ">
+                   <div class="text-center">
                      <p class="classic">Classic shoes</p>
-                   <p class="ms-3">Classic</p>
+                   <p class="">Classic</p>
                    </div>
-                   <span class="orange">300EGP</span>
+                   <div class="text-center">
+                    <span class="orange">300EGP</span>
                    <span class="text-decoration-line-through">500EGP</span>
                    <span class="green">30% Off</span>
-                   <div class="stars ms-5 mt-2">
+                   </div>
+                   <div class="stars text-center ">
                     <i class="fa-sharp fa-solid fa-star"></i>
                     <i class="fa-sharp fa-solid fa-star"></i>
                     <i class="fa-sharp fa-solid fa-star"></i>
@@ -185,51 +214,69 @@
                     
                   </div>
                    
+
+                  </div>
+                  
                  </div>
-                 <div class="border bg-light  me-5 col-lg-4 col-sm-12">
-                   <img src="images/3c412d5ece1aa73c6a2be5be748e0cfa-basketball-shoe-icon.png" alt="" class="w-50 ms-2">
-                   <div class="ms-5">
+                 <div class="  col-lg-4 col-sm-12">
+                  <div class="bg-light shadow-sm">
+                     <img src="images/3c412d5ece1aa73c6a2be5be748e0cfa-basketball-shoe-icon.png" alt="" class="w-50 d-block m-auto">
+                   <div class="text-center">
                      <p class="classic">Classic shoes</p>
-                   <p class="ms-3">Classic</p>
+                   <p class="">Classic</p>
                    </div>
-                   <span class="orange">300EGP</span>
+                   <div class="text-center">
+                    <span class="orange">300EGP</span>
                    <span class="text-decoration-line-through">500EGP</span>
                    <span class="green">30% Off</span>
-                   <div class="stars ms-5 mt-2">
+                   </div>
+                   <div class="stars text-center">
                     <i class="fa-sharp fa-solid fa-star"></i>
                     <i class="fa-sharp fa-solid fa-star"></i>
                     <i class="fa-sharp fa-solid fa-star"></i>
                     <i class="fa-sharp fa-solid fa-star"></i>
                     
                   </div>
+
+                  </div>
+                  
                  </div>
-                 <div class="border bg-light me-5 col-lg-4 col-sm-12">
-                   <img src="images/3c412d5ece1aa73c6a2be5be748e0cfa-basketball-shoe-icon.png" alt="" class="w-50 ms-2">
-                   <div class="ms-5">
+                 <div class="  col-lg-4 col-sm-12">
+                  <div class="bg-light shadow-sm">
+                     <img src="images/3c412d5ece1aa73c6a2be5be748e0cfa-basketball-shoe-icon.png" alt="" class="w-50 d-block m-auto">
+                   <div class="text-center">
                      <p class="classic">Classic shoes</p>
-                   <p class="ms-3">Classic</p>
+                   <p class="">Classic</p>
                    </div>
-                   <span class="orange">300EGP</span>
+                   <div class="text-center">
+                    <span class="orange">300EGP</span>
                    <span class="text-decoration-line-through">500EGP</span>
                    <span class="green">30% Off</span>
-                   <div class="stars ms-5 mt-2">
+                   </div>
+                   <div class="stars text-center">
                     <i class="fa-sharp fa-solid fa-star"></i>
                     <i class="fa-sharp fa-solid fa-star"></i>
                     <i class="fa-sharp fa-solid fa-star"></i>
                     <i class="fa-sharp fa-solid fa-star"></i>
                     
                   </div>
+
+                  </div>
+                  
                  </div>
-                 <div class="border bg-light me-5  col-lg-4 col-sm-12 ">
-                   <img src="images/3c412d5ece1aa73c6a2be5be748e0cfa-basketball-shoe-icon.png" alt="" class="w-50 ms-2">
-                   <div class="ms-5">
+                 <div class="  col-lg-4 col-sm-12 ">
+                  <div class="bg-light shadow-sm" >
+                    <img src="images/3c412d5ece1aa73c6a2be5be748e0cfa-basketball-shoe-icon.png" alt="" class="w-50 d-block m-auto">
+                   <div class="text-center">
                      <p class="classic">Classic shoes</p>
-                   <p class="ms-3">Classic</p>
+                   <p class="">Classic</p>
                    </div>
-                   <span class="orange">300EGP</span>
-                   <span class="text-decoration-line-through">500EGP</span>
-                   <span class="green">30% Off</span>
-                   <div class="stars ms-5 mt-2">
+                  <div class="text-center">
+                    <span class="orange">300EGP</span>
+                    <span class="text-decoration-line-through">500EGP</span>
+                    <span class="green">30% Off</span>
+                  </div>
+                   <div class="stars text-center">
                     <i class="fa-sharp fa-solid fa-star"></i>
                     <i class="fa-sharp fa-solid fa-star"></i>
                     <i class="fa-sharp fa-solid fa-star"></i>
@@ -237,23 +284,32 @@
                     
                   </div>
                    
+
+                  </div>
+                   
                  </div>
-                 <div class="border bg-light me-5  col-lg-4 col-sm-12">
-                   <img src="images/3c412d5ece1aa73c6a2be5be748e0cfa-basketball-shoe-icon.png" alt="" class="w-50 ms-2">
-                   <div class="ms-5">
+                 <div class="  col-lg-4 col-sm-12">
+                  <div class="bg-light shadow-sm">
+                    <img src="images/3c412d5ece1aa73c6a2be5be748e0cfa-basketball-shoe-icon.png" alt="" class="w-50 d-block m-auto">
+                   <div class="text-center">
                      <p class="classic">Classic shoes</p>
-                   <p class="ms-3">Classic</p>
+                   <p class="">Classic</p>
                    </div>
-                   <span class="orange">300EGP</span>
-                   <span class="text-decoration-line-through">500EGP</span>
-                   <span class="green">30% Off</span>
-                   <div class="stars ms-5 mt-2">
+                  <div class="text-center">
+                    <span class="orange">300EGP</span>
+                    <span class="text-decoration-line-through">500EGP</span>
+                    <span class="green">30% Off</span>
+                  </div>
+                   <div class="stars text-center">
                     <i class="fa-sharp fa-solid fa-star"></i>
                     <i class="fa-sharp fa-solid fa-star"></i>
                     <i class="fa-sharp fa-solid fa-star"></i>
                     <i class="fa-sharp fa-solid fa-star"></i>
                     
                   </div>
+
+                  </div>
+                   
                  </div>
                 
                </div>
@@ -262,10 +318,10 @@
         </div>
       </div>
 
-      <div class="icons">
+      <div class="icons p-0">
         <div class="container">
           <div class="row mt-5 pb-5">
-            <div class="col-3">
+            <div class="col-md-6 col-sm-12 col-lg-3">
 
            <div class="d-flex">
             <i class="fa-solid fa-truck fs-3 mt-3"></i>
@@ -281,7 +337,7 @@
           
              
             </div>
-            <div class="col-3">
+            <div class="col-md-6 col-sm-12 col-lg-3">
               <div class="d-flex">
                 
               <i class="fa-solid fa-credit-card fs-3 mt-3"></i>
@@ -297,7 +353,7 @@
           
              
             </div>
-            <div class="col-3">
+            <div class="col-md-6 col-sm-12 col-lg-3">
               <div class="d-flex">
                 
               <i class="fa-solid fa-life-ring fs-3 mt-3"></i>
@@ -314,7 +370,7 @@
           
              
             </div>
-            <div class="col-3">
+            <div class="col-md-6 col-sm-12 col-lg-3">
 
              <div class="d-flex">
               <i class="fa-solid fa-briefcase fs-3 mt-3"></i>
@@ -350,22 +406,22 @@
             </div>
             <div class="col-3">
               <p>OUR SERVICES</p>
-              <ul>
-                <li><a href="" class=" text-dark">Home</a></li>
-                <li><a href="" class=" text-dark">Shop</a></li>
-                <li><a href="" class=" text-dark">Account</a></li>
-                <li><a href="" class=" text-dark">Shopping Cart</a></li>
-                <li><a href="" class=" text-dark">Wishlist</a></li>
+              <ul class="list-unstyled p-0 m-0">
+                <li><a href="" class=" text-dark text-decoration-none">Home</a></li>
+                <li><a href="" class=" text-dark text-decoration-none">Shop</a></li>
+                <li><a href="" class=" text-dark text-decoration-none">Account</a></li>
+                <li><a href="" class=" text-dark text-decoration-none">Shopping Cart</a></li>
+                <li><a href="" class=" text-dark text-decoration-none">Wishlist</a></li>
               </ul>
             </div>
             <div class="col-3">
               <p>INFORMATION</p>
               <ul>
-                <li><a href="" class="text-dark">About Us</a></li>
-                <li><a href="" class="text-dark">Track Your Orders</a></li>
-                <li><a href="" class="text-dark">FAQ's</a></li>
-                <li><a href="" class=" text-dark">Terms&Services</a></li>
-                <li><a href="" class=" text-dark">Contact Us</a></li>
+                <li><a href="" class="text-dark text-decoration-none">About Us</a></li>
+                <li><a href="" class="text-dark text-decoration-none">Track Your Orders</a></li>
+                <li><a href="" class="text-dark text-decoration-none">FAQ's</a></li>
+                <li><a href="" class=" text-dark text-decoration-none">Terms&Services</a></li>
+                <li><a href="" class=" text-dark text-decoration-none">Contact Us</a></li>
               </ul>
             </div>
             <div class="col-3">

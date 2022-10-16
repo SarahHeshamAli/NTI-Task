@@ -2,15 +2,6 @@
     width: 75px;
 }
 
-.middle p {
-    font-weight: bold;
-}
-
-.middle {
-    margin-left: 25%;
-}
-
-
 .Section {
     background-color: #eee;
 }
@@ -19,41 +10,34 @@
     border-color: #eee;
 }
 
-.left-aside .fa-minus {
-    margin-left: 40%;
-}
 
-.left-aside .fa-plus {
-    margin-left: 40%;
-}
 
-.circle {
+.circle-dimensions{
     width: 30px;
     height: 30px;
+}
+.circle {
+ 
     background-color: blue;
 }
 
 .circle1 {
-    width: 30px;
-    height: 30px;
+  
     background-color: #800020;
 }
 
 .circle2 {
-    width: 30px;
-    height: 30px;
+    
     background-color: green;
 }
 
 .circle3 {
-    width: 30px;
-    height: 30px;
+   
     background-color: black;
 }
 
 .circle4 {
-    width: 30px;
-    height: 30px;
+  
     background-color: white;
 }
 
@@ -77,20 +61,6 @@
     color: rgb(0, 189, 0);
 }
 
-.right-aside .bg-light {
-    width: 25%;
-    height: 300px;
-    margin-bottom: 2%;
-}
-
-.right-aside {
-    margin-left: 3%;
-    margin-top: 5%;
-}
-
-.left-aside {
-    margin-top: 1%;
-}
 
 .fa-truck {
     color: orange;
@@ -106,29 +76,15 @@
 .fa-briefcase {
     color: orange;
 }
-.footer ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-.footer ul a {
-    text-decoration: none;
-}
+
+
 .footer {
     background-color: #eeee;
 }
 
-.icons p {
-    margin: 0;
-   
-}
+
 
 .stars {
     color: orange;
 }
 
-.middle ul a {
-    text-decoration: none;
-    color: #000;
-    font-weight: bold;
-}
