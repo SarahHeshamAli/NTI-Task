@@ -1,0 +1,37 @@
+.dropdown-menu .row {
+    width: 800px;
+    height: 200px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.dropdown:hover .dropdown-menu {
+  
+    margin-top: 0; 
+    transform: translateX(0px);
+    visibility: visible;
+     transition: 0.5s;
+    
+ }
+ .dropdown-menu {
+    display: block;
+    visibility: hidden;
+   
+    transform: translateX(-20px);
+ }
+
+ .pages {
+   right: 0;
+ }
+ 
+
+ .carousel-item {
+    height: 800px;
+ }
+
+ .card-img-overlay {
+    background-color: rgba(0, 0, 0, 0.603);
+ }
