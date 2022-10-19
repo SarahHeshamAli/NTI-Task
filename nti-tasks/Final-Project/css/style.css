@@ -16,11 +16,24 @@ a {
      transition: 0.5s;
     
  }
+
+
+.dropdown-item:hover {
+    color: #0d6efd;
+    transition: 0.25s;
+    background-color: transparent;
+}
+
  .dropdown-menu {
     display: block;
     visibility: hidden;
    
     transform: translateX(-20px);
+ }
+
+
+ .navbar-light .navbar-nav .nav-link:hover{
+    color: #0d6efd;
  }
 
  .pages {
@@ -35,3 +48,110 @@ a {
  .card-img-overlay {
     background-color: rgba(0, 0, 0, 0.603);
  }
+
+.carousel-caption .contact:hover {
+    background-color: #0275d8;
+    transition: 0.5s;
+}
+
+.carousel-caption .contact:hover .effect {
+    visibility: visible;
+    transform: translate(300px) rotate(120deg);
+    transition: 1s;
+  
+   
+}
+
+ .carousel-caption .effect {
+    
+    background-color: white;
+    opacity: 0.2;
+    position: absolute;
+    width: 180px;
+    height: 50px;
+    top: 0;
+    right: 180px;
+    transform: rotate(120deg);
+
+  
+   
+}
+
+.carousel-caption .contact {
+    position: relative;
+}
+.carousel-caption .start {
+    position: relative;
+}
+
+.carousel-caption .start:hover .effect {
+    visibility: visible;
+    transform: translate(300px) rotate(120deg);
+    transition: 1s;
+  
+}
+
+.carousel-caption {
+    padding-bottom: 10%;
+}
+
+.carousel-caption button {
+    margin-top: 3%;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 10px;
+    height: 10px;
+    
+}
+
+.carousel-indicators {
+  left: 75%;
+  bottom: 20%;
+  right: inherit;
+  flex-direction: column;
+}
+
+.settings {
+    z-index: 2;
+    top: 10%;
+}
+
+.About-us .hr-short {
+    width: 25%;
+    margin: 0;
+}
+
+.About-us .hr-long {
+    width: 50%;
+    margin-top: 2%;
+}
+
+.about {
+    margin-left: 45%;
+    margin-top: 2%;
+}
+.card img {
+    height: 100%;
+}
+
+.cardy {
+    padding-left: 20%;
+    margin-top: 3%;
+    
+}
+
+.middle-center {
+left: -290px;
+top:3%;
+}
+
+.middle-center p {
+    margin: 2%;
+}
+
+.middle-center:hover .hoover {
+    color: #0275d8;
+    transition: 0.5s;
+    cursor: pointer;
+}
