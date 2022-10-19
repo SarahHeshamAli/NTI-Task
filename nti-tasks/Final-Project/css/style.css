@@ -72,6 +72,7 @@ a {
     top: 0;
     right: 180px;
     transform: rotate(120deg);
+    transition: 1s;
 
   
    
@@ -87,7 +88,7 @@ a {
 .carousel-caption .start:hover .effect {
     visibility: visible;
     transform: translate(300px) rotate(120deg);
-    transition: 1s;
+
   
 }
 
@@ -125,6 +126,7 @@ a {
 .About-us .hr-long {
     width: 50%;
     margin-top: 2%;
+    
 }
 
 .about {
@@ -143,15 +145,246 @@ a {
 
 .middle-center {
 left: -290px;
-top:3%;
+top:1%;
 }
 
 .middle-center p {
     margin: 2%;
 }
 
-.middle-center:hover .hoover {
+.div-1:hover .hoover {
     color: #0275d8;
     transition: 0.5s;
+   
+}
+
+.div-2:hover .hoover2 {
+    color: #0275d8;
+    transition: 0.5s;
+    
+}
+
+.div-3:hover .hoover3 {
+    color: #0275d8;
+    transition: 0.25s;
+   
+}
+
+.div-4:hover .hoover4 {
+    color: #0275d8;
+    transition: 0.25s;
+}
+
+
+.hiide {
+   top: 100%;
+ left: 0;
+   visibility: hidden;
+  transition: 0.25s;
+}
+
+.show:hover .hiide {
+    visibility: visible;
+    transform: translateY(-250px); 
+    
+}
+
+
+.hiide2 {
+    top: 100%;
+    left: 0;
+      visibility: hidden;
+     transition: 0.25s;
+}
+
+.show2:hover .hiide2 {
+    visibility: visible;
+    transform: translateY(-250px); 
+}
+
+.hiide3 {
+    top: 100%;
+    left: 0;
+      visibility: hidden;
+     transition: 0.25s;
+}
+
+.show3:hover .hiide3 {
+    visibility: visible;
+    transform: translateY(-250px);
+}
+
+.hiide4 {
+    top: 100%;
+    left: 0;
+      visibility: hidden;
+     transition: 0.25s;
+}
+
+.show4:hover .hiide4 {
+    visibility: visible;
+    transform: translateY(-250px);
+}
+
+
+.hiide5 {
+    top: 100%;
+    left: 0;
+      visibility: hidden;
+     transition: 0.25s; 
+}
+
+.show5:hover .hiide5 {
+    visibility: visible;
+    transform: translateY(-250px);
+}
+
+.hiide6 {
+    top: 100%;
+    left: 0;
+      visibility: hidden;
+     transition: 0.25s; 
+}
+
+.show6:hover .hiide6 {
+    visibility: visible;
+    transform: translateY(-250px);
+}
+
+.bg {
+    background-image: url(../images/istockphoto-1146472948-612x612.jpg);
+    background-size: 100% 100%;
+}
+
+.etnen:hover {
+    color: #0275d8;
     cursor: pointer;
+    
+}
+
+.talata:hover {
+    color: #0275d8;
+    cursor: pointer;
+}
+
+.arb3a:hover {
+    color: #0275d8;
+    cursor: pointer;
+   
+}
+
+.azra2 {
+    bottom: 4%;
+    left: 2%;
+    visibility: hidden;
+    transform: scaleX(0);
+   
+    
+}
+
+.haver:hover .azra2 {
+    visibility: visible;
+    transform: scaleX(1);
+     transition: 0.5s;
+}
+
+.haver:hover .sora {
+    box-shadow: 2px 2px 8px #888888;
+    transition: 0.5s;
+}
+
+.azra21 {
+    bottom: 4%;
+    left: 2%;
+    visibility: hidden;
+    transform: scaleX(0);
+}
+
+.haver1:hover .azra21 {
+    visibility: visible;
+    transform: scaleX(1);
+     transition: 0.5s;
+}
+
+.haver1:hover .sora1 {
+    box-shadow: 2px 2px 8px #888888;
+    transition: 0.5s;
+}
+
+.azra22 {
+    bottom: 4%;
+    left: 2%;
+    visibility: hidden;
+    transform: scaleX(0);
+}
+
+.haver2:hover .azra22 {
+    visibility: visible;
+    transform: scaleX(1);
+     transition: 0.5s;
+}
+
+.haver2:hover .sora3 {
+    box-shadow: 2px 2px 8px #888888;
+    transition: 0.5s;
+}
+
+.azra23 {
+    bottom: 4%;
+    left: 2%;
+    visibility: hidden;
+    transform: scaleX(0);
+}
+
+.haver3:hover .azra23{
+    visibility: visible;
+    transform: scaleX(1);
+     transition: 0.5s;
+}
+
+.haver3:hover .sora4 {
+    box-shadow: 2px 2px 8px #888888;
+    transition: 0.5s;
+}
+
+.azra24 {
+    bottom: 4%;
+    left: 2%;
+    visibility: hidden;
+    transform: scaleX(0);
+}
+
+.haver4:hover .azra24 {
+    visibility: visible;
+    transform: scaleX(1);
+     transition: 0.5s;
+}
+
+.haver4:hover .sora5 {
+    box-shadow: 2px 2px 8px #888888;
+    transition: 0.5s;
+}
+
+
+.azra25 {
+    bottom: 4%;
+    left: 2%;
+    visibility: hidden;
+    transform: scaleX(0);
+}
+
+.haver5:hover .azra25 {
+    visibility: visible;
+    transform: scaleX(1);
+     transition: 0.5s;
+}
+
+.haver5:hover .sora6 {
+    box-shadow: 2px 2px 8px #888888;
+    transition: 0.5s;
+}
+
+.jean {
+   bottom: 0.5%;
+    left: 12.5%;
 }
