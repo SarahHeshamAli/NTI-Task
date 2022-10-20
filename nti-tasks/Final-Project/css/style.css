@@ -385,6 +385,156 @@ top:1%;
 }
 
 .jean {
-   bottom: 0.5%;
+    bottom: -2.5%;
     left: 12.5%;
+}
+
+.icons {
+    bottom: 0;
+    right: 12.5%;
+   
+}
+
+.here {
+    visibility: hidden;
+}
+.here1 {
+    visibility: hidden;
+}
+
+.click:hover .here {
+    visibility: visible;
+ 
+}
+
+.click1:hover .here1 {
+    visibility: visible;
+}
+
+.trnsl {
+    transform: translateY(120px); 
+    transition: 0.5s;
+
+
+}
+.trnsl1 {
+    transform: translateY(120px); 
+    transition: 0.5s;
+}
+
+
+.trnsl2 {
+    transform: translateY(120px); 
+    transition: 0.5s; 
+}
+.trnsl3 {
+    transform: translateY(120px); 
+    transition: 0.5s; 
+}
+.trnsl4 {
+    transform: translateY(120px); 
+    transition: 0.5s;   
+}
+.trnsl5 {
+    transform: translateY(120px); 
+    transition: 0.5s; 
+}
+.click1:hover .trnsl1 {
+    transform: translateY(-10px);
+}
+
+.click2:hover .trnsl2 {
+    transform: translateY(-10px);
+}
+
+.click:hover .trnsl {
+    transform: translateY(-10px);
+   
+}
+
+.click3:hover .trnsl3 {
+    transform: translateY(-10px);
+}
+.click4:hover .trnsl4 {
+    transform: translateY(-10px);
+}
+
+.click5:hover .trnsl5 {
+    transform: translateY(-10px);
+}
+.icons {
+    transform: translateY(30px);
+
+}
+.icons1 {
+    transform: translateY(-20px);
+}
+
+.icons2 {
+    transform: translateY(-20px);
+}
+
+.icons3 {
+    transform: translateY(-20px);
+}
+.icons4 {
+    transform: translateY(-20px);
+}
+.icons5 {
+    transform: translateY(-20px); 
+}
+.click:hover .icons {
+    transform: translateY(7px) ;   
+    transition: 1s;
+}
+.click1:hover .icons1 {
+    transform: translateY(-30px) ;   
+    
+    transition: 1s;
+}
+.click2:hover .icons2 {
+    transform: translateY(-30px) ;   
+    
+    transition: 1s;
+}
+
+.click3:hover .icons3 {
+    transform: translateY(-30px) ;   
+    
+    transition: 1s;
+}
+.click4:hover .icons4 {
+    transform: translateY(-30px) ;   
+    
+    transition: 1s;
+}
+.click5:hover .icons5 {
+    transform: translateY(-30px) ;   
+    
+    transition: 1s;
+}
+
+.try:hover .this {
+    color: black;
+    cursor: pointer;
+}
+
+.try2:hover .this2 {
+    color: black;
+    cursor: pointer;
+}
+
+.try3:hover .this3 {
+    color: black;
+    cursor: pointer;
+}
+
+.try4:hover .this4 {
+    color: black;
+    cursor: pointer;
+}
+
+.try5:hover .this5 {
+    color: black;
+    cursor: pointer;
 }
