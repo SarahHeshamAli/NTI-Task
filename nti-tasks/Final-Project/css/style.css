@@ -528,12 +528,12 @@ top:1%;
     color: #0d6efd;
 }
 
-.borderr {
+/* .borderr {
     border: 1px solid black;
     border-radius: 5px;
     height: 120px;
     width: 250px;
-}
+} */
 .movve {
    bottom: 35%;
    left: 8%;
@@ -577,4 +577,22 @@ top:1%;
     
     text-decoration: none;
    
+}
+
+.read:hover + .haverr{
+    transform: translateX(5px) ;
+    
+    
+}
+
+.haverr {
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.progress {
+    height: 2px;
+}
+.custom-img-height{
+    height: 90px;
 }
